@@ -1,0 +1,55 @@
+/* pages/video/video.wxss */
+.container {
+  padding: 20rpx;
+}
+.container .header image {
+  width: 60rpx;
+  height: 60rpx;
+}
+.container .header {
+  display: flex;
+  justify-content: space-between;
+}
+.container .header .search {
+  margin: 5rpx 20rpx;
+  line-height: 50rpx;
+  text-align: center;
+  flex: 1;
+  height: 50rpx;
+  border: 1px solid rgb(192, 186, 186);
+  color: #aaa8a8;
+}
+.navScroll {
+  height: 60rpx;
+  margin: 20rpx 0;
+  display: flex;
+  white-space: nowrap;
+}
+.navScroll .navItem {
+  padding: 0 20rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.active {
+  border-bottom: 3px solid #f60000;
+}
+.videoScroll {
+  width: 100%;
+}
+.videoScroll .videoItem {
+  margin: 10rpx 0;
+  height: 500rpx;
+  width: 100%;
+}
+.videoScroll .videoItem image {
+  height: 400rpx;
+  width: 100%;
+}
+.Pimage{
+  height: 400rpx;
+  width: 100%;
+  background-color: rgb(136, 136, 136);
+}
+.title {
+  font-size: 35rpx;
+}

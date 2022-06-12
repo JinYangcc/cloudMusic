@@ -1,0 +1,12 @@
+<!--最近播放-->
+<view class="recordContainer">
+  <view class="record">
+    <view class="recordItem" wx:for="{{recordList}}" wx:key="index" bindtap="goPlayMusic" id="{{item.song.id}}">
+      <view class="nameImg">
+        <image src="{{item.song.al.picUrl}}"></image>
+      </view>
+      <text class="name">{{index+1}}、{{item.song.name}}</text>
+      <text class="iconfont icon-sangedian"></text>
+    </view>
+  </view>
+</view>

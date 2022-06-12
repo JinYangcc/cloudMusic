@@ -1,0 +1,149 @@
+/* pages/mine/mine.wxss */
+.mineContainer {
+  background-color: #cfcfcf;
+  height: 1420rpx;
+  padding: 20rpx;
+}
+
+.title {
+  /* display: flex;
+  justify-content: space-between; */
+  padding: 0rpx 20rpx;
+  width: 100%;
+  height: 100rpx;
+  /* background-color: aqua; */
+}
+
+.title text {
+  font-size: 40rpx;
+  line-height: 100rpx;
+}
+
+.icon-sousuo {
+  float: right;
+  padding-right: 40rpx;
+}
+
+.header {
+  /* margin:  0 20rpx; */
+  /* margin-right: 20rpx; */
+  position: relative;
+  width: 100%;
+  height: 300rpx;
+  /* background-color: blueviolet; */
+  margin-top: 20rpx;
+}
+
+.head {
+  position: absolute;
+  left: 50%;
+  /* top: 10rpx; */
+  margin-left: -100rpx;
+  /* margin: 0 auto; */
+  border-radius: 50%;
+  width: 200rpx;
+  height: 200rpx;
+  z-index: 1;
+}
+
+.head image {
+  border-radius: 50%;
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.head text {
+  display: block;
+  width: 100rpx;
+  text-align: center;
+}
+
+.info {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 200rpx;
+  background-color: rgb(255, 255, 255);
+  border-radius: 40rpx;
+}
+
+.info text {
+  text-align: center;
+  /* background-color: cadetblue; */
+  display: block;
+  width: 400rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 60rpx;
+  margin: 100rpx auto;
+}
+
+
+.navContainer {
+  margin-top: 30rpx;
+  width: 100%;
+  height: 400rpx;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+.navItem {
+  width: 25%;
+  height: 200rpx;
+  /* background-color: aqua; */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navItem .iconfont {
+  margin: 20rpx 0;
+  font-size: 60rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100rpx;
+  background-color: #dddddd;
+  color: #fff;
+}
+
+.navItem text {
+  font-size: 35rpx;
+}
+
+.navItem .iconfont {
+  color: #fe6665;
+}
+.b1{
+  border-radius: 40rpx 0 0 0;
+}
+.b2{
+  border-radius: 0 40rpx 0 0;
+}
+.b3{
+  border-radius: 0 0 0 40rpx;
+}
+.b4{
+  border-radius: 0 0 40rpx 0;
+}
+.foot{
+  /* width: 600rpx; */
+  height: 510rpx;
+  margin-top: 30rpx;
+  background-color: white;
+  border-radius: 40rpx;
+  padding: 20rpx;
+}
+.foot li{
+  list-style: none;
+  font-size: 35rpx;
+  padding-left: 20rpx;
+  width: 97%;
+  height: 120rpx;
+  border-bottom: 1px solid rgb(109, 104, 104);
+  float: left;
+  line-height: 120rpx;
+}

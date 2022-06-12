@@ -1,0 +1,81 @@
+/* pages/music/music.wxss */
+.container {
+  padding: 20rpx;
+}
+.header {
+  position: relative;
+  height: 300rpx;
+  background-color: #9e958c;
+  padding-left: 50rpx;
+  padding-top: 60rpx;
+}
+.headerImg {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 20rpx;
+  float: left;
+}
+.headerImg image {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 20rpx;
+}
+.headerText {
+  float: left;
+  width: 400rpx;
+  height: 200rpx;
+}
+.headerText li {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 10rpx 30rpx;
+  line-height: 50rpx;
+  width: 400rpx;
+  height: 50rpx;
+  color: white;
+}
+.banner {
+  box-shadow: 0 8rpx rgb(216, 211, 211);
+  position: absolute;
+  bottom: -40rpx;
+  left: 100rpx;
+  width: 500rpx;
+  height: 80rpx;
+  background-color: white;
+  border-radius: 50rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.banner text {
+  margin: 15rpx 0;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.music {
+  height: 60rpx;
+  background-color: rgb(255, 255, 255);
+}
+.musicItem {
+  height: 500rpx;
+}
+.item {
+  height: 100rpx;
+  margin-bottom: 10rpx;
+}
+.item .index {
+  text-align: center;
+  line-height: 100rpx;
+  width: 100rpx;
+  height: 100rpx;
+  float: left;
+}
+.item text {
+  margin-left: 50rpx;
+  line-height: 50rpx;
+  width: 560rpx;
+  height: 50rpx;
+  display: block;
+  float: left;
+}

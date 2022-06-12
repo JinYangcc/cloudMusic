@@ -1,0 +1,14 @@
+<!--排行榜列表页面-->
+<view class="container">
+  <view class="item" wx:for="{{LeaderboardList}}" wx:key="id" bindtap="goMusic" id="{{item.id}}">
+    <view class="itemImg">
+      <image src="{{item.coverImgUrl}}"></image>
+    </view>
+    <view class="musicItem">
+      <li wx:for="{{item.tracks}}" wx:for-item="music" wx:for-index="idx" wx:key="idx">
+      <text>{{idx+1}}.{{music.first}}</text>
+      <text class="q">{{music.second}}</text>
+      </li>
+    </view>
+  </view>
+</view>

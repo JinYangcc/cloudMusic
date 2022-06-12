@@ -1,0 +1,31 @@
+<!-- 视频列表 -->
+<view class="container">
+  <view class="header">
+    <image src="/static/images/video_1.png"></image>
+    <view class="search" bindtap="goSearch">搜索音乐</view>
+    <image src="/static/images/logo.png"></image>
+  </view>
+
+  <scroll-view scroll-x class="navScroll" enable-flex>
+    <view class="navItem {{navId===item.id?'active':''}}" wx:for="{{videoGroupList}}" wx:key="id" bindtap="navActive" id="{{item.id}}">
+      {{item.name}}
+    </view>
+  </scroll-view>
+
+  <scroll-view class="videoScroll" scroll-y wx:if="{{videoList.length!=0}}" 
+  refresher-enabled
+  bindrefresherrefresh="errerere"
+  refresher-triggered="{{isTrigger}}"
+
+  >
+    <view class="videoItem" wx:for="{{videoList}}" wx:key="id" id="{{'scroll'+item.data.vid}}"
+    >
+      <view class="videoContainer" bindtap="goVideo" id="{{item.data.vid}}">
+        <image src="{{item.data.previewUrl}}" wx:if="{{item.data.previewUrl!=null}}"></image>
+        <view class="Pimage" wx:else>暂无预览图</view>
+        <view class="title">{{item.data.title}}</view>
+      </view>
+    </view>
+  </scroll-view>
+  <view wx:else>请先登录</view>
+</view>

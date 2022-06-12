@@ -1,0 +1,15 @@
+<!--登录页面-->
+<view class="loginContainer">
+  <view class="logo">
+    <image src="/static/images/logo_1.png"></image>
+  </view>
+  <view class="wrapper">
+    <view class="input input_phone">
+      <input type="text" placeholder="请输入手机号"  model:value="{{phone}}"/>
+    </view>
+    <view class="input input_password">
+      <input type="password" placeholder="请输入密码" model:value="{{password}}"/>
+    </view>
+    <button class="btn_login" style="position: relative; left: 0rpx; top: 64rpx" bindtap="login">登录</button>
+  </view>
+</view>

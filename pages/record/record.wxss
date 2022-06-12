@@ -1,0 +1,37 @@
+/* pages/record/record.wxss */
+.recordContainer {
+  padding: 20rpx;
+
+}
+
+.record {
+  width: 100%;
+}
+
+.recordItem {
+  height: 100rpx;
+  background-color: rgb(235, 137, 137);
+  margin: 10rpx 0;
+}
+
+.recordItem text {
+  font-size: 30rpx;
+  line-height: 100rpx;
+  padding-left: 20rpx;
+}
+.name{
+  margin-left: 20rpx;
+}
+.recordItem .icon-sangedian {
+  font-size: 20px;
+  float: right;
+}
+.nameImg{
+  float: left;
+  width: 100rpx;
+  height: 100rpx;
+}
+.nameImg image{
+  width: 100%;
+  height: 100%;
+}

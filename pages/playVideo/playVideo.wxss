@@ -1,0 +1,9 @@
+/* pages/playVideo/playVideo.wxss */
+.container{
+  padding: 20rpx;
+  width: 100%;
+}
+.container video{
+  height: 400rpx;
+  width: 95%;
+}

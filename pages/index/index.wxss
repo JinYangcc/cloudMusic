@@ -1,0 +1,127 @@
+.container{
+  padding: 20rpx;
+}
+
+/* 轮播图样式*/
+.banner {
+  width: 100%;
+  height: 300rpx;
+  border-radius: 30rpx;
+}
+
+.banner image {
+  width: 100%;
+  height: 100%;
+  border-radius: 30rpx;
+}
+
+/* 导航图标样式 */
+.navContainer {
+  width: 100%;
+  height: 200rpx;
+  display: flex;
+  /* justify-content: center; */
+}
+
+.navItem {
+  width: 20%;
+  height: 200rpx;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navItem .iconfont {
+  margin: 20rpx 0;
+  font-size: 60rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100rpx;
+  background-color: #f60000;
+  color: #fff;
+}
+
+.navItem text {
+  font-size: 35rpx;
+}
+
+/* 推荐 */
+.recommendContainer,
+.topList {
+  padding: 20rpx;
+}
+
+/* 推荐内容 */
+.scroll {
+  display: flex;
+  margin-top: 20rpx;
+  height: 300rpx;
+}
+
+.scrollItem {
+  width: 200rpx;
+  margin-right: 20rpx;
+  /* float: left; */
+}
+
+.scrollItem image {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+
+.scrollItem text {
+  font-size: 32rpx;
+  /* 单行文本溢出变三个点 */
+  /* display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; */
+  /* 多行文本溢出变三个点 */
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.topListSwiper {
+  height: 410rpx;
+}
+
+.swiperItem .title {
+  font-size: 35rpx;
+  margin: 20rpx 0;
+
+}
+
+.swiperItem {
+  width: 96%;
+  background-color: #fbfbfb;
+}
+
+.musicItem {
+  display: flex;
+  margin: 10rpx;
+}
+
+.musicItem image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.count {
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+
+.musicName {
+  font-size: 32rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+}

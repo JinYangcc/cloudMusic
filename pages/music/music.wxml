@@ -1,0 +1,27 @@
+<!--歌单详情歌曲列表-->
+<view class="container">
+  <view class="header">
+    <view class="headerImg">
+      <image src="{{musicList.coverImgUrl}}"></image>
+    </view>
+    <view class="headerText">
+      <li>{{musicList.name}}</li>
+      <li style="font-size:25rpx;">{{musicList.creator.description}}</li>
+      <li style="font-size: 25rpx;">{{musicList.description}}</li>
+    </view>
+    <view class="banner">
+      <text>123</text>
+      <text>1231</text>
+      <text>123</text>
+    </view>
+  </view>
+  <view class="music">
+  </view>
+  <view class="musicItem">
+    <view class="item" wx:for="{{musicList.tracks}}" wx:for-index="idx" wx:key="id" bindtap="goPlayMusic" data-song="{{item}}" data-index="{{index}}">
+      <view class="index">{{idx+1}}</view>
+      <text style="font-size: 28rpx;">{{item.name}}</text>
+      <text style="font-size: 26rpx; color: rgb(182, 182, 182);">{{item.ar[0].name}}</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,59 @@
+<!--我的页面-->
+<view class="mineContainer">
+  <!-- 头像名称区域 -->
+  <view class="bigTitle">
+    <view class="title">
+      <text class="iconfont icon-gengduo"></text>
+      <text class="iconfont icon-sousuo"></text>
+    </view>
+    <view class="header">
+      <view class="head" bindtouchstart="handleTouchStart" bindtouchmove="handleTouchMove" bindtouchend="handleTouchEnd" style="transform:{{coverTransform}};transition:{{coverTransition}};" bindtap="login">
+        <image src="{{userInfo.avatarUrl?userInfo.avatarUrl:'/static/images/109951166889767357.jpg'}}"></image>
+      </view>
+      <view class="info">
+        <text>{{userInfo.nickname?userInfo.nickname:"游客"}}</text>
+      </view>
+    </view>
+  </view>
+  <!-- 导航图标区域 -->
+  <view class="navContainer">
+    <view class="navItem b1">
+      <text class="iconfont icon-24gf-playCircle" bindtap="toRecord"></text>
+      <text>最近播放</text>
+    </view>
+    <view class="navItem">
+      <text class="iconfont icon-bendiyinle"></text>
+      <text>本地/下载</text>
+    </view>
+    <view class="navItem">
+      <text class="iconfont icon-shangchuanyunpan"></text>
+      <text>云盘</text>
+    </view>
+    <view class="navItem b2">
+      <text class="iconfont icon-yigou"></text>
+      <text>已购</text>
+    </view>
+    <view class="navItem b3">
+      <text class="iconfont icon-haoyou"></text>
+      <text>我的好友</text>
+    </view>
+    <view class="navItem">
+      <text class="iconfont icon-shoucang"></text>
+      <text>收藏和赞</text>
+    </view>
+    <view class="navItem">
+      <text class="iconfont icon-shipin"></text>
+      <text>我的博客</text>
+    </view>
+    <view class="navItem b4">
+      <text class="iconfont icon-yinle"></text>
+      <text>音乐罐子</text>
+    </view>
+  </view>
+  <view class="foot">
+    <li class="l1">最近播放</li>
+    <li>我的音乐</li>
+    <li>我的收藏</li>
+    <li>我的电台</li>
+  </view>
+</view>

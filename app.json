@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/search/search",
+    "pages/record/record",
+    "pages/Leaderboard/Leaderboard",
+    "pages/music/music",
+    "pages/playmusic/playmusic",
+    "pages/video/video",
+    "pages/login/login",
+    "pages/playVideo/playVideo"
+  ],
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#f60000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "发现",
+        "iconPath": "/static/images/index.png",
+        "selectedIconPath": "/static/images/index_1.png"
+      },
+      {
+        "pagePath": "pages/Leaderboard/Leaderboard",
+        "text": "排行榜",
+        "iconPath": "/static/images/Leaderboard.png",
+        "selectedIconPath": "/static/images/Leaderboard_1.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "视频",
+        "iconPath": "/static/images/video.png",
+        "selectedIconPath": "/static/images/video_1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/static/images/mine.png",
+        "selectedIconPath": "/static/images/mine_1.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#dd001b",
+    "navigationBarTitleText": "CloudMusic",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

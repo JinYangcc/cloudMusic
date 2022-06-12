@@ -1,0 +1,110 @@
+/* pages/search/search.wxss */
+.container {
+  padding: 20rpx;
+}
+.header {
+  display: flex;
+  height: 60rpx;
+  
+  line-height: 60rpx;
+}
+.icon-sousuo {
+  position: absolute;
+  left: 10rpx;
+}
+.searchInput {
+  position: relative;
+  flex: 1;
+  height: 60rpx;
+}
+.searchInput input {
+  margin-left: 60rpx;
+  margin-right: 80rpx;
+}
+.clear{
+  position: absolute;
+  right: 30rpx;
+  top: -5rpx;
+ 
+}
+.cancel {
+  width: 100rpx;
+  color: rgb(137, 138, 137);
+  font-size: 30rpx;
+}
+.placeholder {
+  font-size: 30rpx;
+}
+.hotContainer .title {
+  font-size: 32rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px solid rgb(187, 182, 182);
+  /* margin-top: 50rpx; */
+}
+.hotList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hotItem {
+  width: 50%;
+  margin-top: 20rpx;
+  font-size: 28rpx;
+}
+.index {
+  margin-right: 20rpx;
+}
+.iconImg {
+  width: 35rpx;
+  height: 20rpx;
+  margin-left: 10rpx;
+}
+.hotItem .iconImg image {
+  width: 35rpx;
+  height: 20rpx;
+  margin-left: 10rpx;
+}
+
+.searchValue {
+  color: #f60000;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  border: 1rpx solid rgb(185, 183, 183);
+}
+.searchItem {
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+}
+.searchItem text {
+  flex: 1;
+  margin-left: 20rpx;
+  border-bottom: 1rpx solid rgb(177, 173, 173);
+  font-size: 28rpx;
+}
+.history {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 50rpx;
+  margin-top: 50rpx;
+}
+.history .title {
+  font-size: 28rpx;
+  height: 50rpx;
+}
+.history .historyItem {
+  height: 50rpx;
+  font-size: 26rpx;
+  background-color: #ededed;
+  margin-left: 20rpx;
+  padding: 5rpx 30rpx;
+  border-radius: 20rpx;
+  margin-bottom: 20rpx;
+}
+.delete {
+  position: absolute;
+  bottom: 14rpx;
+  right: 0;
+}
